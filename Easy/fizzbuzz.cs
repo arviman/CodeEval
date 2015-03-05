@@ -7,7 +7,7 @@ using System.Text;
 class Program
 {
   static void go(string line)
-  {
+    {
       
       var nums = line.Split(' ');
       int x = Convert.ToInt32(nums[0]);
@@ -35,7 +35,8 @@ class Program
       Console.WriteLine(ret);
     }
   static void Main(string[] args)
-  {    
+  {
+    
     using (StreamReader reader = File.OpenText(args[0]))
       while (!reader.EndOfStream)
       {
