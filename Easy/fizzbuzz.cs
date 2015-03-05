@@ -8,6 +8,7 @@ class Program
 {
   static void go(string line)
     {
+// split the line
       
       var nums = line.Split(' ');
       int x = Convert.ToInt32(nums[0]);
